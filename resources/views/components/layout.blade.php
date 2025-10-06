@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ isset($tittle) ? $tittle .' - Chirper' : 'Chirper '}}</title>
+    <title>{{ isset($tittle) ? $tittle .' - Testing' : 'Testing'}}</title>
     <link rel="preconnect" href="<https://fonts.bunny.net>">
     <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
@@ -15,7 +15,7 @@
 <body class="min-h-screen flex flex-col bg-base-200 font-sans">
     <nav class="navbar bg-base-100">
         <div class="navbar-start">
-            <a href="/" class="btn btn-ghost text-xl">🐦 Chirper</a>
+            <a href="/" class="btn btn-ghost text-xl">TestApp</a>
         </div>
         <div class="navbar-end gap-2">
             <a href="#" class="btn btn-ghost btn-sm">Sign In</a>
@@ -29,7 +29,7 @@
 
     <footer class="footer footer-center p-5 bg-base-300 text-base-content text-xs">
         <div>
-            <p>© 2025 Chirper - Built with Laravel and ❤️</p>
+            <p>Built with Laravel</p>
         </div>
     </footer>
 </body>

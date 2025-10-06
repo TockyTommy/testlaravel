@@ -1,16 +1,18 @@
 <x-layout>
-    <x-slot:tittle>
-        Welcome
-    </x-slot:tittle>
-    <div class="max-w-2xl mx-auto">
-            <div class="card bg-base-100 shadow mt-8">
-                <div class="card-body">
-                    <div>
-                        <h1 class="text-3xl font-bold">Welcome to Chirper!</h1>
-                        <p class="mt-4 text-base-content/60">This is your brand new Laravel application. Time to make it
-                            sing (or chirp)!</p>
-                    </div>
-                </div>
-            </div>
+    <x-slot:title>Welcome</x-slot:title>
+
+    <div class="flex flex-col items-center justify-center h-screen text-center">
+        <h1 class="text-4xl font-bold mb-6">User Information App</h1>
+        <p class="text-base-content/70 mb-8 max-w-lg">
+            Enter your information or see all entries.
+        </p>
+        <div class="flex gap-4">
+            <a href="{{ route('infos.create') }}" class="btn btn-primary text-lg px-8 py-3">
+                Go to Form
+            </a>
+            <a href="{{ route('infos.index') }}" class="btn btn-outline text-lg px-8 py-3">
+                View All Data
+            </a>
         </div>
+    </div>
 </x-layout>
